@@ -1,0 +1,28 @@
+.navigation-container {
+    height:4rem;
+    width: 100%;
+    padding:0.5rem;
+    background:rgb(252, 244, 0);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-container__users a,
+.navigation-container__main-nav__link a {
+    cursor: pointer;
+    padding:0.25rem;
+}
+.navigation-container__users a:hover,
+.navigation-container__users a:active,
+.navigation-container__main-nav__link a:hover,
+.navigation-container__main-nav__link a:active {
+    color:white;
+    border-bottom: 3px solid white;;
+}
+.navigation-container__main-nav__links {
+    margin: 0;
+    display:flex;
+    width:9.5rem;
+    justify-content: space-between;
+    list-style: none;
+}
