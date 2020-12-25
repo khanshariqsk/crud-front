@@ -1,0 +1,10 @@
+.peoples-container {
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    border:2px solid black;
+    width:80%;
+    margin:2rem auto;
+    padding:1rem 0;
+}

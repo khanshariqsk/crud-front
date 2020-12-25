@@ -1,0 +1,30 @@
+.people-list {
+    width:90%;
+    background:rgba(136, 255, 243, 0.973);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0.5rem auto;
+    padding:0 1rem;
+    border-radius: 0.8rem;
+}
+
+
+.people-actions__edit,
+.people-actions__delete {
+    font-size:1.2rem;
+    margin: 0 1rem;
+    padding:0.5rem 1rem;
+    background:rgba(253, 203, 110, 0.953);
+    border-radius: 0.5rem;
+    border:none
+    
+}
+.people-actions__delete {
+    background:red;
+    color:white;
+}
+.people-actions__edit:focus,
+.people-actions__delete:focus {
+    outline:none;
+}
